@@ -73,18 +73,18 @@ draw_legend=True)`
 Function that generates a barplot from the calcualted plot data (only use after calculate_plot_data function)
 
 ##### Parameters:
-`names_txt=None` - can plot only some samples or change the order of samples - format is a text file with each name as a row or a list with sample names
-`output_name=None` - name for saving the barplot, typically with .png format
-`title=None` - specifies the graph title
-`per_OD=False` - is True if the graph should have the concentrations normalised per measured optical density ('OD', must be specified as an column in the input file)
-`remove_blank=None` - if True, will ignore all samples that have 'blank' in the name. Used by default if per_OD is True as otherwise the graphs look distorted for blanks
-`ylabel=None` - specifies the y asix label
-`fig_height=None` - specifies the saved figure height
-`fig_width=None` - specifies saved figure width
-`palette='muted'` - allows choosing from pre-defined Seaborn palettes by their Seaborn names
-`plot_data_exp=None` -  name for export of the the plot data table for thegraph as csv
-`ylim_max=None` - changes the maximum value shown on y axis. Especially useful if visualising significance as asterisks as they are usually too close to the edge of the graph by default
-`draw_legend=True` - if False, no legend will be drawn
+`names_txt=None` - can plot only some samples or change the order of samples - format is a text file with each name as a row or a list with sample names  
+`output_name=None` - name for saving the barplot, typically with .png format  
+`title=None` - specifies the graph title  
+`per_OD=False` - is True if the graph should have the concentrations normalised per measured optical density ('OD', must be specified as an column in the input file)  
+`remove_blank=None` - if True, will ignore all samples that have 'blank' in the name. Used by default if per_OD is True as otherwise the graphs look distorted for blanks  
+`ylabel=None` - specifies the y asix label  
+`fig_height=None` - specifies the saved figure height  
+`fig_width=None` - specifies saved figure width  
+`palette='muted'` - allows choosing from pre-defined Seaborn palettes by their Seaborn names  
+`plot_data_exp=None` -  name for export of the the plot data table for thegraph as csv  
+`ylim_max=None` - changes the maximum value shown on y axis. Especially useful if visualising significance as asterisks as they are usually too close to the edge of the graph by default  
+`draw_legend=True` - if False, no legend will be drawn  
 
 ### make_barplot_table
 `MSData.make_barplot_table(tableData, 
