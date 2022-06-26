@@ -31,3 +31,63 @@ The column **group** allows several samples with a different name but the same g
 ### To Create the Object: 
 The object is creted as an `MSData` object with a single essential argument, `'data_csv'`, containing the input data. Optional arguments are `names_all='names_all.txt'` and `concentration_units=None`
 
+### Available Functions
+Numerous functions can then be performed on the data object to visualise the data and perform statistical calculations. 
+
+#### use_standard
+`MSData.use_standard(standard_csv, method=None)`
+
+Optionally apply standard to the data. It will calculate the product concentration. Subsequently used functions will then use the calculated concentration data.
+        
+###### Parameters:
+`standard_csv` - input csv data from standard
+`method=None` - allows using different standards for different methods - eg. in the original samples, there would be different standards for a final product and the chemical intermediate and they would be plotted as different bars
+
+#### calculate_plot_data
+`MSData.calculate_plot_data(names, methods)`
+
+Calculates the averages and standard deviations of the replicates to plot. If OD (optical density) values are provided, this also calculates the values per OD
+
+#### plot_regression
+`MSData.plot_regression(savefile=None)`
+
+Only use this function if using a standard. It provides a scatter plot with the regression line to check the quality of the standard and regression
+
+###### Parameters:
+`savefile=None` - input a file name in the .png format to save the figure
+
+#### make_barplot
+`MSData.make_barplot(names_txt=None,
+              output_name=None,
+              title=None, 
+              per_OD=False, 
+              remove_blank=None, 
+              ylabel=None, 
+              fig_height=None, 
+              fig_width=None, 
+              palette='muted', 
+              plot_data_exp=None,
+              ylim_max=None,
+              draw_legend=True)`
+
+`MSData.make_barplot_table(tableData, 
+                           output_name=None, 
+                           title=None, 
+                           per_OD=False, 
+                           remove_blank=None, 
+                           ylabel=None, 
+                           fig_height=None, 
+                           fig_width=None, 
+                           palette='muted', 
+                           plot_data_exp=None, 
+                           ylim_max=None,
+                           draw_legend=True)`
+
+`MSData.export_dataframe(filename)`
+
+`MSData.ttest_by_method_paired(file_paired=None, methods=None)`
+
+`MSData.ttest_independent(method = 'all', sample_names='all_names', file_ind=None, group_by=False)`
+
+`annot_stat(self, star, x1, x2, y, h, col='k')`
+
