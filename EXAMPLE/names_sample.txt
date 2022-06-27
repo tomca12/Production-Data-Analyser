@@ -1,4 +1,0 @@
-blank
-sample A
-sample B
-sample C
