@@ -1,5 +1,0 @@
-,name,method1,method2,pvalue,star
-0,sample A,non-induced,induced,0.8630061234400446,ns
-1,sample B,non-induced,induced,0.0012175379213621698,**
-2,sample C,non-induced,induced,0.00035002780897065597,***
-3,blank,non-induced,induced,,ns
