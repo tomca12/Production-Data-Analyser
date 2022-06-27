@@ -1,0 +1,65 @@
+,name1,name2,method1,method2,pvalue,star
+0,sample A,sample A,non-induced,non-induced,1.0,ns
+1,sample A,sample A,non-induced,induced,0.8097716395690854,ns
+2,sample A,sample A,induced,non-induced,0.8097716395690854,ns
+3,sample A,sample A,induced,induced,1.0,ns
+4,sample A,sample B,non-induced,non-induced,1.7601987429702504e-05,****
+5,sample A,sample B,non-induced,induced,0.010374235667248615,*
+6,sample A,sample B,induced,non-induced,5.995075924045398e-05,****
+7,sample A,sample B,induced,induced,0.024527045377899407,*
+8,sample A,sample C,non-induced,non-induced,0.12568453006210273,ns
+9,sample A,sample C,non-induced,induced,2.4300596455611533e-09,****
+10,sample A,sample C,induced,non-induced,0.11920036263002692,ns
+11,sample A,sample C,induced,induced,1.0745072882403914e-08,****
+12,sample A,blank,non-induced,non-induced,5.2150301040663066e-06,****
+13,sample A,blank,non-induced,induced,5.2150301040663066e-06,****
+14,sample A,blank,induced,non-induced,2.258622768667912e-05,****
+15,sample A,blank,induced,induced,2.258622768667912e-05,****
+16,sample B,sample A,non-induced,non-induced,1.7601987429702504e-05,****
+17,sample B,sample A,non-induced,induced,5.995075924045398e-05,****
+18,sample B,sample A,induced,non-induced,0.010374235667248615,*
+19,sample B,sample A,induced,induced,0.024527045377899407,*
+20,sample B,sample B,non-induced,non-induced,1.0,ns
+21,sample B,sample B,non-induced,induced,1.2622482533052876e-05,****
+22,sample B,sample B,induced,non-induced,1.2622482533052876e-05,****
+23,sample B,sample B,induced,induced,1.0,ns
+24,sample B,sample C,non-induced,non-induced,0.014693858072781561,*
+25,sample B,sample C,non-induced,induced,1.251221056827539e-10,****
+26,sample B,sample C,induced,non-induced,0.025573847662603132,*
+27,sample B,sample C,induced,induced,5.562321565327837e-09,****
+28,sample B,blank,non-induced,non-induced,0.0003209377138712334,***
+29,sample B,blank,non-induced,induced,0.0003209377138712334,***
+30,sample B,blank,induced,non-induced,4.92146579479277e-06,****
+31,sample B,blank,induced,induced,4.92146579479277e-06,****
+32,sample C,sample A,non-induced,non-induced,0.12568453006210273,ns
+33,sample C,sample A,non-induced,induced,0.11920036263002692,ns
+34,sample C,sample A,induced,non-induced,2.4300596455611533e-09,****
+35,sample C,sample A,induced,induced,1.0745072882403914e-08,****
+36,sample C,sample B,non-induced,non-induced,0.014693858072781561,*
+37,sample C,sample B,non-induced,induced,0.025573847662603132,*
+38,sample C,sample B,induced,non-induced,1.251221056827539e-10,****
+39,sample C,sample B,induced,induced,5.562321565327837e-09,****
+40,sample C,sample C,non-induced,non-induced,1.0,ns
+41,sample C,sample C,non-induced,induced,7.166696156035231e-07,****
+42,sample C,sample C,induced,non-induced,7.166696156035231e-07,****
+43,sample C,sample C,induced,induced,1.0,ns
+44,sample C,blank,non-induced,non-induced,0.005505125438069345,**
+45,sample C,blank,non-induced,induced,0.005505125438069345,**
+46,sample C,blank,induced,non-induced,2.9520275490713303e-12,****
+47,sample C,blank,induced,induced,2.9520275490713303e-12,****
+48,blank,sample A,non-induced,non-induced,5.2150301040663066e-06,****
+49,blank,sample A,non-induced,induced,2.258622768667912e-05,****
+50,blank,sample A,induced,non-induced,5.2150301040663066e-06,****
+51,blank,sample A,induced,induced,2.258622768667912e-05,****
+52,blank,sample B,non-induced,non-induced,0.0003209377138712334,***
+53,blank,sample B,non-induced,induced,4.92146579479277e-06,****
+54,blank,sample B,induced,non-induced,0.0003209377138712334,***
+55,blank,sample B,induced,induced,4.92146579479277e-06,****
+56,blank,sample C,non-induced,non-induced,0.005505125438069345,**
+57,blank,sample C,non-induced,induced,2.9520275490713303e-12,****
+58,blank,sample C,induced,non-induced,0.005505125438069345,**
+59,blank,sample C,induced,induced,2.9520275490713303e-12,****
+60,blank,blank,non-induced,non-induced,,ns
+61,blank,blank,non-induced,induced,,ns
+62,blank,blank,induced,non-induced,,ns
+63,blank,blank,induced,induced,,ns
